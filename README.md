@@ -29,16 +29,16 @@ Create five straightforward menus for main dishes, drinks, and desserts, each st
 ---
 ## Key takeaway of using express 📦
 
-> a) Express indeed streamlines data connections.
-> b) It saves time by providing efficient routing and middleware features.
-> c) It allows engineers to quickly establish connections with databases and other data sources.
+> -  Express indeed streamlines data connections.
+> -  It saves time by providing efficient routing and middleware features.
+> -  It allows engineers to quickly establish connections with databases and other data sources.
 
 
 ### Set up 
-> a) Create a new directory for the project to use.
-> b) Run "npm init" to generate the package.json file.
-> c) Install Express using "npm install --save express". The "--save" flag updates the package.json file.
-> d) Create a file named "app.js". This file serves as the entry point for the project.
+> -  Create a new directory for the project to use.
+> -  Run "npm init" to generate the package.json file.
+> -  Install Express using "npm install --save express". The "--save" flag updates the package.json file.
+> -  Create a file named "app.js". This file serves as the entry point for the project.
 
 ```javascript
 
@@ -88,23 +88,19 @@ app.listen(PORT, () => {
 ```
 
 **Create folder and file directory**
-> a) Project Root Folder: Contains all project-related files and folders.
-> b) Data folder: Contains all source data files for the project.
-> c) public Folder: Contains static assets like HTML, CSS, client-side JavaScript, images, etc.
+> -  Project Root Folder: Contains all project-related files and folders.
+> -  Data folder: Contains all source data files for the project.
+> -  public Folder: Contains static assets like HTML, CSS, client-side JavaScript, images, etc.
 
 ### Set up main
-> a) Make sure to have a space for data to be patched.
-* main.handelbars 파일 생성.
+> -  Make sure to have a space for data to be patched with unique id
+
 ```html
-<!doctype html>
-<html>
-<head>
-<title>title</title>
-</head>
-<body>
-  {{{body}}}
-</body>
-</html>
+            <div class="container">
+                <h3 class="mt-5">Main dishes</h3>
+                <div class="row mt-2" id="food">
+                </div>
+            </div>
 ```
 
 ### Static Files and Views
