@@ -1,0 +1,17 @@
+{
+  "name": "express_classlab_korean_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Hannah Moon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "nodemon": "^3.1.0"
+  }
+}
