@@ -96,11 +96,11 @@ app.listen(PORT, () => {
 > -  Make sure to have a space for data to be patched with unique id
 
 ```html
-            <div class="container">
-                <h3 class="mt-5">Main dishes</h3>
-                <div class="row mt-2" id="food">
-                </div>
-            </div>
+<div class="container">
+  <h3 class="mt-5">Main dishes</h3>
+  <div class="row mt-2" id="food">
+  </div>
+</div>
 ```
 
 ### Static Files and Views
