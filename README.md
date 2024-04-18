@@ -87,7 +87,7 @@ app.listen(PORT, () => {
   });
 ```
 
-**Create folder and file directory**
+### Create folder and file directory
 > -  Project Root Folder: Contains all project-related files and folders.
 > -  Data folder: Contains all source data files for the project.
 > -  public Folder: Contains static assets like HTML, CSS, client-side JavaScript, images, etc.
