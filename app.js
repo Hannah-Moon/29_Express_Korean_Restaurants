@@ -33,11 +33,12 @@ app.get("/desserts/data", (req, res) => {
     })
 });
 
+// ---------------[ Step 03: Set up Route ]
+
 app.get("/food", (req, res) => {
     res.sendFile(__dirname+'/public/food.html')
 })
 
-// ---------------[ Step 03: Set up Route ]
 app.listen(PORT, () => {
     console.log(`Currently Listening on ${PORT}`);
   });
