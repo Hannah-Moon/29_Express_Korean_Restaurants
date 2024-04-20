@@ -19,7 +19,11 @@
         "price": "$17"
     },
     {
+<<<<<<< HEAD
         "food_d": 4,
+=======
+        "food_id": "04",
+>>>>>>> 82479bb9e0161a1eceac36d8eb19c1e55c54ea47
         "name": "Mandu",
         "description": "Korean dumplings filled with pork, cabbage, chives and Korean glass noodles.",
         "price": "$17"
