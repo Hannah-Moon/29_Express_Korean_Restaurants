@@ -1,3 +1,8 @@
+// import * as desserts from './desserts.js';
+// import * as food from './food.js';
+// import * as drinks from './drinks.js';
+
+
 $(document).ready(function() {
     $.get("/food/data", function(data){
         data.forEach(function(item) {

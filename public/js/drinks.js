@@ -16,3 +16,5 @@ $(document).ready(function() {
         });
     })
 });
+
+module.exports = drinks
