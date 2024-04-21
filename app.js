@@ -5,10 +5,11 @@ const fs = require ("fs") // --> set up file system
 const app = express();
 const PORT = process.env.PORT || "3000";
 
+// ---------------[ Step 02: Read data ]
+
 // ---------------[ MW ]
 app.use(express.static("public"))
 
-// ---------------[ Step 02: Read data ]
 // Food
 app.get("/food/data", (req, res) => {
     fs.readFile(__dirname+'/data/food.json', 'utf8', (err, data)=> {
