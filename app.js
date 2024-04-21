@@ -1,7 +1,7 @@
 
 // ---------------[ Step 01: Set up ]
 const express = require ("express");
-const fs = require ("fs") // --> import JSON
+const fs = require ("fs") // --> set up file system
 const app = express();
 const PORT = process.env.PORT || "3000";
 
